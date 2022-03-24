@@ -42,8 +42,6 @@ nav:
         - Twig Templates and Archipelago:
           - metadatatwigs.md
           - Working With Twig in Archipelago (getting started with custom Twig templates): workingtwigs.md
-        - Archipelago Multi-Importer (AMI):
-          - ami_index.md
           - AMI Instructions and Guides:
             - Spreadsheet Formatting Overview: ami_spreadsheet_overview.md
             - Ingesting New Digital Objects and Collections using Spreadsheets or Google Sheets: AMIviaSpreadsheets.md
