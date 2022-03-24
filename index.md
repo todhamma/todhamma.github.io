@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# TOD Archipelago Documentation Repository
 
-You can use the [editor on GitHub](https://github.com/todhamma/todhamma.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+We recommend you use the Official Webpage, but you can also find here the [same documentation as Github Markdown](docs/index.md).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# What is Archipelago
 
-### Markdown
+Archipelago Commons, or simply Archipelago, is an evolving Open Source Digital Objects Repository / DAM Server Architecture based on the popular CMS [`Drupal8/9`](https://www.drupal.org) and released under [`GPL V.3 License`](https://www.gnu.org/licenses/gpl-3.0.txt).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Archipelago is a mix of deeply integrated custom-coded Drupal modules (made with care by us) and a curated and well-configured Drupal instance, running under a discrete and well-planned set of service containers.
 
-```markdown
-Syntax highlighted code block
+Archipelago was dreamt as a multi-tenant, distributed, capable system (as its name suggests!) and can live isolated or in flocks of similar deployments, sharing storage, services, or -- even better -- just the discovery layer. Learn more about the different [`Software Services`](docs/devops.md) used by Archipelago.
 
-# Header 1
-## Header 2
-### Header 3
+Archipelago's primary focus is to serve the greater [`GLAM community`](https://en.wikipedia.org/wiki/GLAM_(industry_sector)) by providing a flexible, consistent, and unified way of describing, storing, linking, exposing metadata and media assets. We respect identities and existing workflows. We endeavor to design Archipelago in ways that empower communities of every size and shape.
 
-- Bulleted
-- List
+Finally, Archipelago tries to stay humble, slim, and nimble in nature with a small code base full of inline comments and `@todos`. All of our work is driven by a clear and [concise but thoughtful planned technical roadmap --updated in tandem with new releases](https://github.com/esmero/archipelago-deployment/issues/103).
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/todhamma/todhamma.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Caring & Coding + Fixing
+* [Treasures Of Dhamma](https://github.com/todhamma)
