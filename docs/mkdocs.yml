@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+nav:
+  - Home: index.md
+  - About Archipelago:
+    - Archipelago's Philosophy & Guiding Principles: ourtake.md
+    - Strawberryfields Forever: strawberryfields.md
+    - Software Services: devops.md
