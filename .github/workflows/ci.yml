@@ -4,3 +4,19 @@ on:
   push:
     branches: 
       - main
+jobs:
+  deploy:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: |
+          pip install mkdocs-material mike git+https://github.com/jldiaz/mkdocs-plugin-tags.git
+          git add . &&
+          git commit -m "sync repo docs" || echo "No changes to commit" &&
+          git push origin main &&
+          cd .. &&
+          rm -r ./tmp-update-repo &&
+          git pull origin main &&
+          git fetch origin gh-pages --depth=1 &&
+          mike deploy --update-aliases main &&
+          mike set-default --push main || echo "No changes to commit"
