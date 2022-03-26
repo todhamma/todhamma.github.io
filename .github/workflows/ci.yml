@@ -6,10 +6,7 @@ on:
       - main
 jobs:
   deploy:
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - run: |
+     - run: |
           pip install mkdocs-material mike git+https://github.com/jldiaz/mkdocs-plugin-tags.git
           git add . &&
           git commit -m "sync repo docs" || echo "No changes to commit" &&
