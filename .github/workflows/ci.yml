@@ -6,6 +6,8 @@ on:
       - main
 jobs:
   deploy:
+  runs-on: ubuntu-latest
+    steps:
      - run: |
           pip install mkdocs-material mike git+https://github.com/jldiaz/mkdocs-plugin-tags.git
           git add . &&
