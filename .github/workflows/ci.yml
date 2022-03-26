@@ -8,7 +8,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-     - run: |
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token:  ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: main
+          path: ./tmp-update-repo
+          token:  ${{ secrets.GITHUB_TOKEN }}
+      - run: |
           pip install mkdocs-material mike git+https://github.com/jldiaz/mkdocs-plugin-tags.git
           git add . &&
           git commit -m "sync repo docs" || echo "No changes to commit" &&
