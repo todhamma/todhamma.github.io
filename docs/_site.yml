@@ -1,4 +1,5 @@
 name: "tod-archipelago"
+theme: material
 navbar:
   title: "TOD-Archipelago"
   left:
